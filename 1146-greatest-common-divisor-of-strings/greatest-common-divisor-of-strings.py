@@ -6,4 +6,4 @@ class Solution:
             if b == 0:
                 return a
             return gcd(b, a % b)
-        return str1[:gcd(len(str1),len(str2))]
+        return str1[:gcd(len(str1),len(str2)) ]
